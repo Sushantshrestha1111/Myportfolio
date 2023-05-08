@@ -1,0 +1,29 @@
+.Wrapper{
+    height:100vh;
+    width:100vw;
+    background-color: #191A19;
+    position:relative;
+   
+    left:0;
+    margin: 0;
+}
+.contentsabout{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    color: aliceblue;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.pp{
+    padding: 15px;
+    color: aliceblue;
+    font-size: 18px;
+    max-width: 50%;
+}

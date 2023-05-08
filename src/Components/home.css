@@ -1,0 +1,60 @@
+.background-video {
+    position: relative;
+    height: 100vh; /* Adjust as needed */
+  }
+  @keyframes glowing {
+    0% {
+      text-shadow: 0 0 10px #00FF00;
+    }
+    25% {
+      text-shadow: 0 0 20px #33FF33;
+    }
+    50% {
+      text-shadow: 0 0 30px #66FF66;
+    }
+    75% {
+      text-shadow: 0 0 20px #99FF99;
+    }
+    100% {
+      text-shadow: 0 0 10px #99FF99;
+    }
+  }
+
+  .hello{
+    color:white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .im{
+    color: #00FF00;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    animation: glowing 5s ease-in-out infinite;
+  }
+  .name{
+    color:#00FF00;
+    font-size: 45px;
+    
+    animation: glowing 5s ease-in-out infinite;
+                   
+    font-family: 'Montserrat', sans-serif;
+  }
+  .frontend{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .details{
+    font-size: 18px;
+    margin-top: 15px;
+    width:55%;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .letstalk:hover{
+    background-color: transparent;
+    
+
+  }
