@@ -1,3 +1,7 @@
+@font-face {
+  font-family: myfont;
+  src: url(../Fonts/Dead\ Space.ttf);
+}
 .background-video {
     position: relative;
     height: 100vh; /* Adjust as needed */
@@ -25,26 +29,26 @@
     margin-top: 15px;
     
     margin-bottom: 15px;
-    font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-family: 'myfont';
   }
   .im{
     color: #00FF00;
-    font-size: 45px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-family: 'myfont', sans-serif;
     animation: glowing 5s ease-in-out infinite;
   }
   .name{
     color:#00FF00;
-    font-size: 50px;
+    font-size: 55px;
     
     animation: glowing 5s ease-in-out infinite;
                    
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'myfont', sans-serif;
   }
   .frontend{
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-family: 'myfont', sans-serif;
     margin-top: 10px;
     margin-bottom: 15px;
   }

@@ -38,8 +38,7 @@ function Home() {
           <Second>
           <span className='name'>Sushant Shrestha</span>
       <span className='frontend'>Visual deginer</span>
-      <span className='details'>detainsf asdd sfd fg agadfg afgadfg adfgadfg adfgad gadffg adfg adfg adfg afga dfg afg adf</span>
-      <Letstalk><span>Let's Talk</span></Letstalk>
+      
           </Second>
           </Fade>
       
@@ -59,10 +58,10 @@ const Container = styled.div`
   z-index: 1;
   position: absolute;
   top: 45%;
-  left: 45%;
+  left: 50%;
   justify-content: center;
   transform: translate(-50%, -50%);
-  text-align: left;
+  text-align: center;
   color: white;
 
   @media (max-width: 768px) {
