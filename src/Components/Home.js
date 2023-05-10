@@ -5,10 +5,14 @@ import styled from 'styled-components'
 import "./home.css"
 import ReactPlayer from 'react-player';
 import AboutMe from './Adoutme/AboutMe'
+import { Fade } from "react-reveal";
+import Zoom from 'react-reveal/Zoom';
 function Home() {
   return (
     <div className="background-video">
+      
       <ReactPlayer
+      
         url={video}
         playing
         loop
@@ -18,18 +22,26 @@ function Home() {
         
         style={{ position: 'absolute', top: 0, left: 0,bottom:0, zIndex:-1}}
       />
-      <Header />
+      
+      
+      <Fade right><Header /></Fade>
+      
+      
       <Container>
-        <First>
+      <Fade left>
+      <First>
           <span className='hello'>Hello, </span>
           <span className='im'>I am</span>
           </First>
+      
+       
           <Second>
           <span className='name'>Sushant Shrestha</span>
       <span className='frontend'>Visual deginer</span>
       <span className='details'>detainsf asdd sfd fg agadfg afgadfg adfgadfg adfgad gadffg adfg adfg adfg afga dfg afg adf</span>
       <Letstalk><span>Let's Talk</span></Letstalk>
           </Second>
+          </Fade>
       
       
       
@@ -48,6 +60,7 @@ const Container = styled.div`
   position: absolute;
   top: 45%;
   left: 45%;
+  justify-content: center;
   transform: translate(-50%, -50%);
   text-align: left;
   color: white;

@@ -23,19 +23,20 @@
   .hello{
     color:white;
     margin-top: 15px;
+    
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Montserrat', sans-serif;
   }
   .im{
     color: #00FF00;
-    font-size: 32px;
+    font-size: 45px;
     font-family: 'Montserrat', sans-serif;
     animation: glowing 5s ease-in-out infinite;
   }
   .name{
     color:#00FF00;
-    font-size: 45px;
+    font-size: 50px;
     
     animation: glowing 5s ease-in-out infinite;
                    
