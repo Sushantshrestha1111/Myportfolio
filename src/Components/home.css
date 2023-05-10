@@ -32,9 +32,16 @@
     font-size: 45px;
     font-family: 'myfont';
   }
+  .frontenddeveloper{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
   .im{
     color: #00FF00;
-    font-size: 55px;
+    font-size: 45px;
     font-family: 'myfont', sans-serif;
     animation: glowing 5s ease-in-out infinite;
   }
@@ -47,11 +54,23 @@
     font-family: 'myfont', sans-serif;
   }
   .frontend{
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'myfont', sans-serif;
     margin-top: 10px;
     margin-bottom: 15px;
+    color:#00FF00;
+    animation: glowing 5s ease-in-out infinite;
+    text-decoration: underline;
+
   }
+  .developer{
+    font-size: 20px;
+    font-family: 'myfont', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+
   .details{
     font-size: 18px;
     margin-top: 15px;

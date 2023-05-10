@@ -37,7 +37,12 @@ function Home() {
        
           <Second>
           <span className='name'>Sushant Shrestha</span>
-      <span className='frontend'>Visual deginer</span>
+          <div className='frontenddeveloper'>
+          <p className='frontend'>Frontend-</p>
+      <p className='developer'>Developer</p>
+
+          </div>
+    
       
           </Second>
           </Fade>
@@ -74,36 +79,19 @@ const Container = styled.div`
 `;
   const First=styled.div`
   @media (max-width: 768px) {
-    text-align: left;
+    text-align: center;
   }
   `
   const Second=styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 15px;
+  text-align: center;
   @media (max-width: 768px) {
     align-items: left;
   }
     `
-    const Letstalk=styled.div`
-    margin-top: 45px;
-    cursor:pointer;
-    background-color:#1E5128;
-    text-align: center;
-    justfy-content: center;
-    align-items: center;
-    width: 100px;
-    padding: 15px;
-    border-radius:15px;
-    text-decoration:bold;
-    height:20px;
-    &:hover{
-      background-color:transparent;
-      border-color:#1E5128;
-      color:#1E5128;
-    }
     
-    `
   
 
 
