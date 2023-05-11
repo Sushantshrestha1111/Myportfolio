@@ -118,6 +118,7 @@ a{
         transform:scaleX(1);
         opacity:1;
         
+        
       }
     }
 }
