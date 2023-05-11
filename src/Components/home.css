@@ -4,7 +4,7 @@
 }
 .background-video {
     position: relative;
-    height: 100vh; /* Adjust as needed */
+    height: 100vh; 
   }
   @keyframes glowing {
     0% {

@@ -1,50 +1,30 @@
 import React from "react";
 import "./aboutme.css";
 import { Fade } from "react-reveal";
+import avatar from "../../asset/images.png"
 function AboutMe() {
   return (
     <div className="Wrapper">
       <div className="contentsabout">
-       <Fade left>
-       <span className="title">About Me</span></Fade> 
-     
-      <p className="pp">
-        Hello i am sushant shrestha and i ma react developer i had completed my
-        internship form companyt venture four technology i am experenced in
-        react js typescript with css html android development tailwind
-      </p>
-      <span className="personaldetal">Personal Detail</span>
-      <Fade left>
-      <div className="table">
-      <table>
-    <tr>
-      <th>Populated</th>
-      <th></th>
-      <th></th>
-    </tr>
-    <tr>
-      <td>Data 1</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Data 2</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Data 3</td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
+        <Fade left>
+          <div className="container"><span className="tittle">About Me</span></div>
+          
+        </Fade>
+        
+        <span className="wasap">HEY Wassup</span>
 
+        <div className="contimg">
+        <p className="pp">
+          I am Sushant Shrestha, a frontend developer specializing in React.
+          With a passion for creating engaging and interactive user experiences,
+          I strive to deliver high-quality, efficient, and visually appealing
+          web applications.
+        </p>
+        <img className="myavatar"src={avatar}/>
+        </div>
 
+       
       </div>
-      </Fade>
-      
-      </div>
-      
     </div>
   );
 }
